@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { select, Selection} from 'd3-selection';
+import { select, Selection } from 'd3-selection';
 
 const data = [
   // {
@@ -30,7 +30,7 @@ const data = [
 
 ]
 
-const Svg1: React.FC = () => {
+const Svg2: React.FC = () => {
   const ref = useRef(null)
   const [selection, setSelection] = useState<null | Selection<null, unknown, null, undefined>>(null)
 
@@ -77,4 +77,4 @@ const Svg1: React.FC = () => {
   );
 }
 
-export default Svg1;
+export default Svg2;

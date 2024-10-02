@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
 import { select, Selection} from 'd3-selection';
 import './App.css';
-import Svg1 from './svg2';
+import Svg2 from './svg2';
+import Svg3 from './svg3';
 
 
 
@@ -9,7 +10,8 @@ const App: React.FC = () => {
   
   return (
     <div>
-      <Svg1 />
+      <Svg2 />
+      <Svg3 />
     </div>
   );
 }
